@@ -23,7 +23,7 @@ jobs:
               run: npm install
             - name: Lint
               run: npm run lint
-            # Would test like this if had a mocked mongoose DB
+            # Would test like this if had a mocked mongoose/mongo DB
             # - name: Test
             #   run: npm test
     frontend:
